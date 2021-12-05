@@ -12,7 +12,7 @@ if (example==="array") {
     console.log(logDT.dtLogger("")," == before getList");
     myArrayExample.getListOfNames();
     console.log(logDT.dtLogger("")," == after getList");
-};
+}
 
 if (example==="urlExample") {
     var myUrlExample = require('./urlExample');
