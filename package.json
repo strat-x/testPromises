@@ -1,0 +1,23 @@
+{
+  "name": "testpromises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strat-x/testPromises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strat-x/testPromises/issues"
+  },
+  "homepage": "https://github.com/strat-x/testPromises#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "datetime4debug": "^1.0.4"
+  }
+}
