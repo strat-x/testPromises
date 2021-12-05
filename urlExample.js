@@ -13,8 +13,4 @@ function getUrlResponse(url) {
     })
 } 
 
-
-
-
-
 module.exports.getUrlResponse = getUrlResponse;

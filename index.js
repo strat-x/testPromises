@@ -16,19 +16,16 @@ if (example==="array") {
 
 if (example==="urlExample") {
     var myUrlExample = require('./urlExample');
-    //var myResult = myUrlExample.getUrlResponse(myUrl);
     var myResult = myUrlExample.getUrlResponse(myUrl); // the function returns a promise object
     myResult.then((response) => { //the .then is only executed when the promise object received a response.
         console.log(logDT.dtLogger(),"response received ", response);
-        var myResult = myUrlExample.getUrlResponse(myUrl2); 
-        myResult.then((response) => { //the .then is only executed when the promise object received a response.
-            console.log(logDT.dtLogger(),"response received ", response);
-            console.log(response.name);
+        myResult = myUrlExample.getUrlResponse(myUrl2); 
+        myResult.then((response2) => { //the .then is only executed when the promise object received a response.
+            console.log(logDT.dtLogger(),"response received ", response2);
+            console.log(response2.name);
         });
     });
     console.log(logDT.dtLogger()," AFTER myResult.then. at this moment ",myResult);
-    //console.log("response from ",myUrl," is ",myResult);
-    //setTimeout(() => console.log(myResult),3000);
 
 }
 
